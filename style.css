@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.cabecalho {
+    background-color: #8cf50c;
+    color: rgb(23, 21, 21);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.img-solar{
+    width: 20%;
+}
+
+.Sobre{
+    background-image: linear-gradient(#8cf50c,#01f426);
+    color: rgb(18, 17, 17);
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.Sobre-div-conteudo{
+    width: 35%;
+}
+
+.Sobre-titulo{
+    padding: 24px 0;
+}
+
+.Beneficios{
+    background-color: black;
+    color: white;
+}
+
+.Economia{
+    padding: 24px 0;
+}
+
+.Economia-imagem{
+    width: 120px;
+}
+
+.Sustentabilidade-imagem{
+    width: 120px ;
+}
+
+.Manutenção-imagem{
+    width: 120px ;
+}
+
+
+.Beneficios-div{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Beneficios-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.Beneficios-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.rodape{
+    background-color: rgb(84, 249, 1);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 80px;
+    padding: 12px 0;
+   
+}
